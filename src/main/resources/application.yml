@@ -11,3 +11,15 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
   server:
     port:8080
+  management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+  metrics:
+    tags:
+      application: Application
+  
