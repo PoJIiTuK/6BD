@@ -17,9 +17,9 @@ management:
      exposure:
        include: '*'
  endpoint:
-  health:
+   health:
      show-details: always
  metrics:
-  tags:
+   tags:
      application: Application
   
