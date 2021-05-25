@@ -2,7 +2,7 @@ spring:
   datasource:
     url: ${JDBC_DATABASE_URL:jdbc:mysql://lap-app:3306/chaykovskiy_db?useUnicode=true&serverTimezone=UTC}
     username: ${JDBC_DATABASE_USERNAME:root}
-    password: ${JDBC_DATABASE_PASSWORD:dbpassword}
+    password: ${JDBC_DATABASE_PASSWORD:1234qwer}
   jpa:
     hibernate:
       ddl-auto: update
